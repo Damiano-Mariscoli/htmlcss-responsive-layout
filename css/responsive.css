@@ -59,9 +59,7 @@
     .hero .row.social-icons span{
         display: none;
        }
-    .row.social-icons{
-        gap: 70px;
-    }
+    
     .banner{
         display: none;
     }
@@ -76,7 +74,7 @@
         
     }
     .presentation{
-        padding: 0px 60px ;
+        padding: 0px 10px ;
     }
     .presentation h2{
         padding-bottom: 30px;
@@ -87,4 +85,7 @@
     .top-line-img{
         display: none;
     }
-}
+    .row.hero{
+        padding: 0 10px;
+    }
+}   
