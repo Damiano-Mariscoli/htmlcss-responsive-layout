@@ -16,7 +16,8 @@ a {
 	text-decoration: none;
 }
 img{
-    max-width: 100%;
+    width: 100%;
+    
 }
 
 /* LAYOUT */
@@ -33,6 +34,7 @@ img{
 }
 .col-100{
     width: 100%;
+    display: block;
 }
 .col-70{
     width: 70%;
@@ -66,9 +68,33 @@ img{
     gap: 20px;
 }
 
+.btn-social{
+    border: solid 1px;
+    border-radius: 999px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    padding: 8px;
+    margin: 15px 0px;
+}
 
-
-
+.banner{
+    width: 100%;
+}
+.presentation img{
+    height: 240px;
+    width: 350px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+figcaption{
+    line-height: 30px;
+    
+}
+.presentation{
+    margin: 50px 0;
+}
 /* DEBUG */
 .debug{
     border: 1px black solid;
@@ -87,4 +113,13 @@ img{
 }
 .padding-bot-35{
     padding-bottom: 35px;
+}
+.width-100{
+    width: 100%;
+}
+.gap-30{
+    gap: 30px;
+}
+.no-wrap{
+    flex-wrap: nowrap;
 }

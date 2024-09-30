@@ -21,6 +21,12 @@
    .col-30{
     width: 100%;
    }
+   .hero .row span{
+    display: none;
+   }
+   .banner{
+    padding: 0px 60px;
+   }
 }
 
 
@@ -33,5 +39,11 @@
     .briefly{
         flex-direction: column;
         gap: 20px;
+    }
+    .hero .row span{
+        display: none;
+       }
+    .row.social-icons{
+        gap: 70px;
     }
 }
