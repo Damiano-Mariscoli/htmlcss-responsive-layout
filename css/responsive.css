@@ -36,6 +36,13 @@
     .top-line-img{
         display: none;
     }
+    .row.bottom-bar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .location{
+        text-align: center;
+    }
 }
 
 
