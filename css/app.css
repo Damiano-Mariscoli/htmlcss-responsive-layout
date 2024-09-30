@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap');
+/* RESET RULES */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,4 +14,64 @@ ul,ol{
 a {
 	color: currentColor;
 	text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* LAYOUT */
+.container-full-width{
+    width: 100%;
+}
+.container-md{
+    width: 1340px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-100{
+    width: 100%;
+}
+.col-70{
+    width: 70%;
+}
+.col-30{
+    width: 30%;
+}
+
+  /* NAVBAR */
+  .nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    color: #FF9614;
+    text-shadow:1px 1px 2px black;
+    margin: 20px;
+  }
+  .no-wrap {
+    white-space: nowrap;
+}
+
+
+/* HERO */
+
+
+
+
+
+/* DEBUG */
+.debug{
+    border: 1px black solid;
+}
+
+
+/* UTIL */
+.row-gap{
+    gap: 40px;
+}
+.display-flex{
+    display: flex;
 }

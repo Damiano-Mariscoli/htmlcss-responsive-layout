@@ -1,0 +1,13 @@
+/* TABLET */
+
+
+
+
+
+/* SMARTPHONE */
+@media (max-width:767.99px) {
+    .navbar{
+        text-align: center;
+    }
+    
+}
