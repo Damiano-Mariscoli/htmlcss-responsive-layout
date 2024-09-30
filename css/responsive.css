@@ -21,12 +21,21 @@
    .col-30{
     width: 100%;
    }
-   .hero .row span{
+   .hero .row.social-icons span{
     display: none;
    }
    .banner{
     padding: 0px 60px;
    }
+   .presentation{
+    padding: 0px 60px ;
+}
+    .top-line{
+        display: none;
+    }
+    .top-line-img{
+        display: none;
+    }
 }
 
 
@@ -45,5 +54,30 @@
        }
     .row.social-icons{
         gap: 70px;
+    }
+    .banner{
+        display: none;
+    }
+    .presentation img{
+        float: none;
+    }
+    figure{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .presentation{
+        padding: 0px 60px ;
+    }
+    .presentation h2{
+        padding-bottom: 30px;
+    }
+    .top-line{
+        display: none;
+    }
+    .top-line-img{
+        display: none;
     }
 }
