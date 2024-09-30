@@ -128,7 +128,10 @@ figcaption{
 figure{
     position:relative;
 }
-
+iframe{
+    
+    height: 550px;
+}
 /* BOTTOM BAR */
 .bottom-bar .row{
     justify-content: space-between;

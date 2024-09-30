@@ -56,7 +56,7 @@
         flex-direction: column;
         gap: 20px;
     }
-    .hero .row span{
+    .hero .row.social-icons span{
         display: none;
        }
     .row.social-icons{
