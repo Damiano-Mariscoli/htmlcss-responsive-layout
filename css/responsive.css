@@ -88,4 +88,18 @@
     .row.hero{
         padding: 0 10px;
     }
+    .row.social-icons{
+        justify-content: space-between;
+    }
+    .col-20.btn-social{
+        width: 50px;
+    align-content: center;
+    height: 50px;
+    border: solid 1px;
+    border-radius: 999px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    margin: 15px 0px;
+    }
 }   
